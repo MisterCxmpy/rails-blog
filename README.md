@@ -1,24 +1,13 @@
-# README
+# **Blog Application**
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+This application was created using:
 
-Things you may want to cover:
+- [Ruby v2.7.2](https://ruby-doc.org/core-2.7.2/)
+- [Rails v6.0.6](https://guides.rubyonrails.org/v6.0/)
+- [Bootstrap v4.4.1](https://getbootstrap.com/docs/4.4/getting-started/introduction/)
 
-* Ruby version
-
-* System dependencies
-
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+### **What does the app include?**
+The purpose of the application is to allow users to create blog posts or articles.
+Users will have the ability to view, edit and delete their posts.
+All of the posts are stored in a database.
+The users will have the ability to create an account - which must be done in order to create a post. Although this feature is still in development.
