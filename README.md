@@ -11,3 +11,7 @@ The purpose of the application is to allow users to create blog posts or article
 Users will have the ability to view, edit and delete their posts.
 All of the posts are stored in a database.
 The users will have the ability to create an account - which must be done in order to create a post. Although this feature is still in development.
+
+### **More information**
+This is my first major Ruby project, at the time of creating this project I have a few months of experience using Ruby.
+My experience so far has been extremely positive and I am looking forward to using more Ruby in my projects.
