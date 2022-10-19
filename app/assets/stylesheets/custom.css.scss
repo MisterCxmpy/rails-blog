@@ -68,3 +68,9 @@ html, body {
   padding-bottom: 15px;
   position: absolute;
 }
+
+@media (min-width: 100px) {
+  .card-columns {
+      column-count: 3;
+  }
+}
