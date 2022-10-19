@@ -47,14 +47,12 @@ html, body {
   -o-filter: blur(5px);
   -ms-filter: blur(5px);
   filter: blur(5px);
-  z-index: -1;
   height: 425px;
 }
 
 #page-content {
-  height: 100%;
+  flex: 1 0;
   background-color: rgb(228, 228, 228);
-  z-index: -2;
 }
 
 #sticky-footer {
@@ -68,4 +66,5 @@ html, body {
   background: rgba(0, 0, 0, 0.55);
   padding: 4px 8px;
   padding-bottom: 15px;
+  position: absolute;
 }
