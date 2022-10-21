@@ -12,6 +12,10 @@ Users will have the ability to view, edit and delete their posts.
 All of the posts are stored in a database.
 The users will have the ability to create an account - which must be done in order to create a post. Although this feature is still in development.
 
+### **What am I currently working on?**
+I am currently creating a user system. The system will allow users to create their own account and start publishing articles.
+Once this is complete I will then shift my focus to implementing an authentication system.
+
 ### **Motiviation**
 This is my first major Ruby project, at the time of creating this project I have a few months of experience using Ruby.
 My experience so far has been extremely positive and I am looking forward to using more Ruby in my projects.
