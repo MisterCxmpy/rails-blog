@@ -1,7 +1,11 @@
 <h1 class="text-center mt-4">Rails Bloggers</h1>
 
+<div class="apple_pagination">
+  <%= will_paginate @users, :container => false %>
+</div>
+
 <div class="container">
-  <div class="card-columns">
+  <div class="card-deck justify-content-center">
     <% @users.each do |user| %>
       <div class="card text-center shadow mb-5 bg-white rounded">
         <div class="card-header font-italic">
@@ -21,4 +25,8 @@
       </div>
     <% end %>
   </div>
+</div>
+
+<div class="apple_pagination mb-4">
+  <%= will_paginate @users, :container => false %>
 </div>
