@@ -4,7 +4,7 @@
       <div class="card text-center shadow mb-5 bg-white rounded">
         <div class="card-header font-italic">
           <% if article.user %>
-            by <%= link_to article.user.username, user_path(article.user) %>
+            by <span class="text-success"><%= "[Admin] " if article.user.admin? %></span><%= link_to article.user.username, user_path(article.user) %>
           <% end %>
         </div>
         <div class="card-body">
