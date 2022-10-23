@@ -84,6 +84,15 @@ html, body {
   }
 }
 
+.card-body {
+  width: 100%;
+}
+
+.card-text > p > img {
+  width: 100%;
+  object-fit: cover;
+}
+
 .apple_pagination {
   background: #e4e4e4;
   border: 1px solid #e5e5e5;
