@@ -16,7 +16,12 @@
   <%= will_paginate @articles, :container => false %>
 </div>
 
-<%= render "articles/article" %>
+<div class="container">
+  <%= render "articles/article" %>
+  <div class="mb-3">
+    <%= link_to "[ Cancel and return to categories listing ]", categories_path, class: "row justify-content-center text-info" %>
+  </div>
+</div>
 
 <div class="apple_pagination mb-4">
   <%= will_paginate @articles, :container => false %>
