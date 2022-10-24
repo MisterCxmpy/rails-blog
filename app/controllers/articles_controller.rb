@@ -1,4 +1,4 @@
-class ArticleController < ApplicationController
+class ArticlesController < ApplicationController
   
   before_action :set_article, only: [:show, :edit, :update, :destroy]
   before_action :require_user, except: [:show, :index]
@@ -49,7 +49,7 @@ class ArticleController < ApplicationController
   end
 
   def article_params
-    params.require(:article).permit(:title, :description)
+    params.require(:article).permit(:title, :description, category_ids: [])
   end
 
   def require_same_user

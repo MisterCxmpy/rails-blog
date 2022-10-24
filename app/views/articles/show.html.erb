@@ -3,7 +3,7 @@
 <div class="container">
   <div class="card text-center shadow mb-3 bg-white rounded">
       <div class="card-header font-italic">
-         by <span class="text-success"><%= "[Admin] " if @article.user.admin? %></span><%= @article.user.username if @article.user %>
+        by <span class="text-success"><%= "[Admin] " if @article.user.admin? %></span><%= @article.user.username if @article.user %>
         <%= link_to gravatar_for(@article.user), user_path(@article.user) %>
       </div>
       <div class="card-body">
