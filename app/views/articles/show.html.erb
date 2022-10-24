@@ -5,6 +5,9 @@
       <div class="card-header font-italic">
         by <span class="text-success"><%= "[Admin] " if @article.user.admin? %></span><%= @article.user.username if @article.user %>
         <%= link_to gravatar_for(@article.user), user_path(@article.user) %>
+        <% if @article.categories.any? %>
+          <div class="mt-2"><%= render @article.categories %></div>
+        <% end %>
       </div>
       <div class="card-body">
       <div class="card-text text-left"><%=simple_format(@article.description) %></div>
